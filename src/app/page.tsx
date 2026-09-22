@@ -66,18 +66,21 @@ const trainers = [
     role: "Head Gym Trainer",
     image: "/trainer-1.jpg",
     experience: "8+ Years Experience",
+    link: "/trainers/alex-rahman",
   },
   {
     name: "Sarah Khan",
     role: "Martial Arts Coach",
     image: "/trainer2.jpg",
     experience: "6+ Years Experience",
+    link: "/trainers/sarah-khan",
   },
   {
     name: "Michael Hasan",
     role: "Personal Trainer",
     image: "/trainer-3.jpg",
     experience: "7+ Years Experience",
+    link: "/trainers/michael-hasan",
   },
 ];
 
@@ -211,6 +214,7 @@ export default function Home() {
                 role={trainer.role}
                 image={trainer.image}
                 experience={trainer.experience}
+                link={trainer.link}
               />
             ))}{" "}
           </div>{" "}

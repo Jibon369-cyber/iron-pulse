@@ -6,6 +6,7 @@ export const trainers = {
     experience: "8+ Years Experience",
     bio: "Alex specializes in strength training, muscle development, and overall fitness. He helps members build strength and maintain consistent training habits.",
     specialty: "Strength & Fitness Training",
+    link: "/trainers/alex-rahman",
   },
 
   "sarah-khan": {
@@ -15,6 +16,7 @@ export const trainers = {
     experience: "6+ Years Experience",
     bio: "Sarah is an experienced martial arts coach focused on technique, discipline, conditioning, and helping students develop confidence through training.",
     specialty: "Martial Arts & Conditioning",
+    link: "/trainers/sarah-khan",
   },
 
   "michael-hasan": {
@@ -24,5 +26,6 @@ export const trainers = {
     experience: "7+ Years Experience",
     bio: "Michael works with members through personalized training plans, proper exercise techniques, and consistent progress tracking.",
     specialty: "Personal Training",
+    link: "/trainers/michael-hasan",
   },
 };

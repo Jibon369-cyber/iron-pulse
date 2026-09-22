@@ -42,7 +42,7 @@ const TrainerCard = ({
         </p>
 
         <Link
-          href="{link}"
+          href={link}
           className="inline-block rounded-md bg-[#DC2626] px-5 py-3 font-bold text-[#F9FAFB] transition hover:bg-[#B91C1C]"
         >
           View Profile
